@@ -20,13 +20,13 @@
         ?>
     </header>
     <main>
-        <div class="container mb-5 mt-5">
+        <div class="container mb-5 mt-5 col-xs-12 col-md-6 col-lg-6">
             <img class="card-img-top" src="images/Sura.png" alt="Card image cap" />
-            <div class="card color ">
+            <div class="card color">
                 <h3 class="mb-4 mr-2 ml-2 mt-2">Datos Personales</h3>
                 <form method="request" action='controller/registrarCliente.php'>
                     <div class="form-row mt-2 mb-2 mr-2 ml-2 justify-content-center">
-                        <div class="form-group col-xs-12 col-md-12 col-lg-12 ">
+                        <div class="form-group col-xs-12 col-md-12 col-lg-12">
                             <label>Ingrese Cliente:</label>
                             <input required="" type="text" class="form-control" id="nombre" name="nombre" placeholder="Ingrese Nombre">
                         </div>
@@ -34,11 +34,11 @@
                             <label>Ingrese Apellido:</label>
                             <input required="" type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido Cliente">
                         </div>
-                        <div class="form-group col-xs-12 col-md-12 col-lg-12 ">
+                        <div class="form-group col-xs-12 col-md-12 col-lg-12">
                             <label>Ingrese Rut:</label>
                             <input required="" type="text" class="form-control" id="rut" name="rut" placeholder="Rut Cliente">
                         </div>
-                        <div class="form-group col-xs-12 col-md-12 col-lg-12 ">
+                        <div class="form-group col-xs-12 col-md-12 col-lg-12">
                             <label>Ingrese Seguro:</label>
                             <select required id="seguro" name="seguro" class="form-control">
                                 <option disabled selected value="">
