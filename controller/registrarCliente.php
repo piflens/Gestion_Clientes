@@ -13,7 +13,7 @@ VALUES ('$nom_cli', '$ape_cli','$rut','$seguro','$edad')";
 
 
 if ($conn->query($consulta) === TRUE) {
-    echo "<script type=\"text/javascript\">alert('Registro exitoso');window.location='../index.php'; </script>";
+    echo "<script type=\"text/javascript\">alert('Registro exitoso');window.location='../mostrar.php'; </script>";
 } else {
     echo "<script type=\"text/javascript\">alert('Registro fallido');window.location='../index.php'; </script>";
 }

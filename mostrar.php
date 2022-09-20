@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.12.1/datatables.min.css" />
     <link rel=StyleSheet href="css/header.css" type="text/css">
     <link rel=StyleSheet href="css/mostrar.css" type="text/css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo-ico/Sura.ico" />
 </head>
 
 <body>
@@ -41,7 +42,29 @@
                             ?>
                         </tbody>
                     </table>
-
+                </div>
+            </form>
+        </div>
+        <div class="container mb-5 mt-5">
+            <form method="post">
+                <div class="card table-responsive ">
+                    <table class="table table-striped table-hover" id="example">
+                        <thead class="sura">
+                            <tr>
+                                <th scope="col">id</th>
+                                <th scope="col">cliente</th>
+                                <th scope="col">rut</th>
+                                <th scope="col">seguros</th>
+                                <th scope="col">edad</th>
+                                <th scope="col">acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                            include 'controller/mostrarClientesMayores.php'
+                            ?>
+                        </tbody>
+                    </table>
                 </div>
             </form>
         </div>
@@ -58,8 +81,9 @@
 <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.12.1/datatables.min.js"></script>
 <!--JS datatable-->
 <script src="js/datatable.js"> </script>
+<!--Iconos de font awesome-->
 <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
-
+<!--llamamos a mensaje de confirmacion-->
 <script src="js/mensaje.js"> </script>
 </body>
 

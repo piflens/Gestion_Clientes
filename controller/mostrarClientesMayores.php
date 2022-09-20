@@ -4,7 +4,7 @@
 
     try {
         $sql2 = "SELECT * FROM clientes
-         WHERE edad > 49";
+         WHERE edad >= 49";
         $query2 = mysqli_query($conn2, $sql2);
 
         while ($filas = mysqli_fetch_assoc($query2)) {

@@ -11,6 +11,8 @@
     <!--css personal de estilos-->
     <link rel=StyleSheet href="css/index.css" type="text/css">
     <link rel=StyleSheet href="css/header.css" type="text/css">
+    <!--icono de la pestaña-->
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo-ico/Sura.ico" />
 </head>
 
 <body>
@@ -53,8 +55,8 @@
                             <input required="" type="text" class="form-control" id="edad" name="edad" placeholder="Edad Cliente">
                         </div>
                         <div class="text-center">
-                            <button type="submit" id="registrar" id="registrar" class="btn btn-light mb-3 ">Registrar
-                                Cliente</button>
+                            <button type="submit" id="registrar" class="btn btn-light mb-3 " onclick="return ConfirmacionRegistro
+                            ()">Registrar Cliente</button>
                         </div>
                     </div>
                 </form>
@@ -69,6 +71,8 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!--llamamos mensaje de confirmacion-->
+    <script src="js/mensaje.js"> </script>
 </body>
 
 </html>
